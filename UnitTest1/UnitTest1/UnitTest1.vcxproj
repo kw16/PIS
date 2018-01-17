@@ -97,7 +97,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>../ConsoleApplication1/Debug/House.obj;../ConsoleApplication1/Debug/Room.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>../ConsoleApplication1/Debug/House.obj;../ConsoleApplication1/Debug/Room.obj;../ConsoleApplication1/Debug/RectRoom.obj;../ConsoleApplication1/Debug/CurcRoom.obj;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\maxch\Documents\Visual Studio 2017\Projects\UnitTest1\ConsoleApplication1\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

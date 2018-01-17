@@ -14,6 +14,6 @@ public:
 	void ClearAll();
 	~House();
 private:
-	std::vector<Room> rooms;
+	std::vector<Room*> rooms;
 };
 

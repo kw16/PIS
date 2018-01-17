@@ -8,7 +8,7 @@ House::House()
 
 void House::addRoom(Room *room)
 {
-	rooms.push_back(*room);
+	rooms.push_back(room);
 }
 
 void House::deleteRoom(int index)
@@ -34,7 +34,7 @@ double House::getSummurySquare() const
 	double result = 0;
 	for (auto &room:rooms)
 	{
-		result += room.GetSquare();
+		result += room->getSquare();
 	}
 	return result;
 }
