@@ -1,0 +1,2 @@
+﻿  unittest1.cpp
+LINK : fatal error LNK1104: не удается открыть файл "../ConsoleApplication1/Debug/House.obj"
